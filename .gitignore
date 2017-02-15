@@ -1,5 +1,9 @@
-node_modules/
-lib/
+node_modules
 *.log
-*DS_Store*
-.orig
+*.pid
+*.seed
+.DS_Store
+lib
+coverage
+logs
+pids

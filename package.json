@@ -1,20 +1,20 @@
 {
   "name": "china-map-geojson",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "中国及各省市地图 geoJSON 格式数据",
-  "entry": {
-    "index": "./index"
-  },
+  "main": "lib/index.js",
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "NODE_ENV=production babel src --out-dir lib",
     "test": "mocha --check-leaks --compilers js:babel-core/register"
   },
   "devDependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-core": "^6.10.4",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.5.0",
-    "babel-preset-stage-0": "^6.5.0"
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
   },
   "keywords": [
     "china",
