@@ -1,8 +1,10 @@
 {
   "name": "china-map-geojson",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "中国及各省市地图 geoJSON 格式数据",
-  "main": "./src/index.js",
+  "entry": {
+    "index": "./index"
+  },
   "scripts": {
     "test": "mocha --check-leaks --compilers js:babel-core/register"
   },
