@@ -1,7 +1,7 @@
 {
   "name": "china-map-geojson",
-  "version": "0.0.5",
-  "description": "中国及各省市地图 geoJSON 格式数据",
+  "version": "0.0.6",
+  "description": "中国及各省市地图 geoJSON 数据",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
