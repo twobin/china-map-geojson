@@ -1,6 +1,6 @@
-import China from './china';
-import Province from './province';
+import ChinaData from './china';
+import ProvinceData from './province';
 
 export {
-  China, Province
+  ChinaData, ProvinceData
 };
