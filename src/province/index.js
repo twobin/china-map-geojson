@@ -36,7 +36,7 @@ import Xinjiang from './xin_jiang_geo';
 import Yunnan from './yun_nan_geo';
 import Zhejiang from './zhe_jiang_geo';
 
-export {
+export default {
   Anhui, Aomen, Beijing, Chongqing, Fujian, Guizhou, Guangxi, Guangdong,
   Gansu, Hunan, Hubei, Heilongjiang, Hebei, Henan, Hainan, Jiangxi, Jiangsu, Jilin,
   Liaoning, Ningxia, Neimenggu, Qinghai, Sichuan, Shanghai, Shandong, Shanxi_1,
