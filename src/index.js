@@ -1,6 +1,6 @@
-import ChinaData from './china';
-import ProvinceData from './province';
+const ChinaData = require('./china');
+const ProvinceData = require('./province');
 
-export {
+module.exports = {
   ChinaData, ProvinceData
 };

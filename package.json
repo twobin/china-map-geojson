@@ -1,10 +1,9 @@
 {
   "name": "china-map-geojson",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "中国及各省市地图 geoJSON 数据",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "prepublish": "npm run build",
     "build": "NODE_ENV=production babel src --out-dir lib",
     "test": "mocha --check-leaks --compilers js:babel-core/register"
   },
@@ -34,7 +33,6 @@
   },
   "files": [
     "src",
-    "lib",
     "*.md"
   ],
   "license": "ISC"

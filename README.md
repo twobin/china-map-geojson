@@ -16,5 +16,5 @@ $ npm i -S china-map-geojson
 ### china-map-geojson
 
 ```
-import { China, Zhejiang } from 'china-map-geojson';
+import { ChinaData, ProvinceData } from 'china-map-geojson';
 ```
