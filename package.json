@@ -1,6 +1,6 @@
 {
   "name": "china-map-geojson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "中国及各省市地图 geoJSON 数据",
   "main": "lib/index.js",
   "scripts": {
@@ -34,6 +34,7 @@
   },
   "files": [
     "src",
+    "lib",
     "*.md"
   ],
   "license": "ISC"
