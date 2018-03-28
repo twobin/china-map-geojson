@@ -1,11 +1,12 @@
 {
   "name": "china-map-geojson",
-  "version": "0.0.12",
+  "version": "1.0.1",
   "description": "中国及各省市地图 geoJSON 数据",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "NODE_ENV=production babel src --out-dir lib",
-    "test": "mocha --check-leaks --compilers js:babel-core/register"
+    "test": "mocha --check-leaks --compilers js:babel-core/register",
+    "build": "rm -rf lib && babel src --out-dir lib",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
