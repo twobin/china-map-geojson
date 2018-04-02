@@ -18,3 +18,9 @@ $ npm i -S china-map-geojson
 ```
 import { ChinaData, ProvinceData } from 'china-map-geojson';
 ```
+
+you can also use umd.
+
+```
+https://unpkg.com/china-map-geojson@1.0.3/umd/china-map-geojson.min.js
+```

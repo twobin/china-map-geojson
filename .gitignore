@@ -4,6 +4,7 @@ node_modules
 *.seed
 .DS_Store
 lib
+umd
 coverage
 logs
 pids
